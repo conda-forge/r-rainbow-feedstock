@@ -1,4 +1,4 @@
-{% set version = '3.4' %}
+{% set version = "3.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/rainbow_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rainbow/rainbow_{{ version }}.tar.gz
-  sha256: 5eddd3915454dbc7bd1d3b36a47778098e4cce2a2981d0a9cd2f2520c96a7d27
+  sha256: 135d9f0fcf8798076111a154fab315b64b30e2dbc4504efae5892b3816758abd
 
 build:
   number: 0
