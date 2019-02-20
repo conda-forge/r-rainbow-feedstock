@@ -1,4 +1,4 @@
-{% set version = '3.5' %}
+{% set version = "3.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rainbow_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rainbow/rainbow_{{ version }}.tar.gz
-  sha256: 135d9f0fcf8798076111a154fab315b64b30e2dbc4504efae5892b3816758abd
+  sha256: 63d1246f88a498f3db0321b46a552163631b288a25b24400935db41326636e87
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
