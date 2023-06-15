@@ -1,11 +1,11 @@
-About r-rainbow
-===============
+About r-rainbow-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rainbow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://sites.google.com/site/hanlinshangswebsite/
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rainbow-feedstock/blob/main/LICENSE.txt)
 
 Summary: Visualizing functional data and identifying functional outliers.
 
